@@ -22,9 +22,7 @@ jobs:
       run: |
         git clone https://github.com/google/googletest.git
         mkdir task-ci/3rdparty
-        ls -la
-        ls -la googletest
-        cp -r ./googletest/ task-ci/3rdparty/
+        cp -a /googletest/. task-ci/3rdparty/
         ls -la task-ci/3rdparty/
 
     - name: Configure CMake
