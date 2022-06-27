@@ -1,2 +1,6 @@
 *.DS_Store
-
+googletest/
+task-ci/3rdparty/
+task-ci/bin/
+task-ci/build/
+task-ci/lib/
